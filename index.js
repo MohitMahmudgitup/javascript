@@ -58,17 +58,17 @@
 
 /*----08----*/
 
-let arr = [1,2,34,5,6]
+// let arr = [1,2,34,5,6]
 
 // console.log(arr[2])
 
-arr.map((item,index)=>{
-    console.log("Array index " + index + " value is " + item)
-})
+// arr.map((item,index)=>{
+//     console.log("Array index " + index + " value is " + item)
+// })
 
-arr.reverse().map((item,index)=>{
-    console.log("Array index " + index + " value is " + item)
-})
+// arr.reverse().map((item,index)=>{
+//     console.log("Array index " + index + " value is " + item)
+// })
 
 // arr.forEach((item,index)=>{
 //     console.log("Array index " + index + " value is " + item)
@@ -78,7 +78,48 @@ arr.reverse().map((item,index)=>{
 //     console.log("Array index " + i + " value is " + arr[i])
 // }
 
+/*----09----*/
+
+// function func1 (){
+//   return 2
+// }
+// function func2 (){
+//   return 4
+// }
+
+// let result = (func1(),func2());
+// console.log(result)
+
+/*----10----*/
+
+// let arr = ["one" , "two" , "three"] ;
+// let str = "Hello";
+
+// const res = arr.includes("on");
+// const newArr = arr.includes("onetwo");
+// const newStr = str.includes("ll");
+
+// console.log(res);
+// console.log(newArr);
+// console.log(newStr);
+
+/*----11----*/
+
+// console.log(true == "")
+
+// console.log("1" === 1 )
+
+// let a = 10;
+// let b = new Number(10);
+// let c = 10 ;
+// console.log(a === b);
 
 
+/*----12----*/
 
-
+// let a = {
+//     name:"inzamam"
+// }
+// let c = {...a};
+// z.name = "in";
+// console.log(a.name);
